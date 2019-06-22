@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Signup and Sign in page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap-theme.min.css">
+    <style>
+        body {
+            margin-top: 65px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-target="#primary-menu"
+                    data-toggle="collapse">
+                    Menu
+                </button>
+                <div class="navbar-brand">
+                    <a href="index.html">edureka!</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="our-story.html">Our Story</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <legend>
+                    <h2><strong>Not yet registered?</strong></h2>
+                </legend>
+                <legend>Sign up now</legend>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="name">Name</label>
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="type your name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="email">Email</label>
+                        <div class="col-md-6">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="type your email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="password">Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="password" id="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="confirm-password">Confirm Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="confirm-password" id="confirm-password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="checkbox-grp-position">Position</label>
+                        <div class="col-md-10" id="checkbox-grp-position">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="web developer" name="checkbox-position">
+                                Web Developer
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="javaScript programmer" name="checkbox-position">
+                                JavaScript Developer
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="angular developer" name="checkbox-position">
+                                Angular Developer
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="backend developer" name="checkbox-position">
+                                Backend developer
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <div class="col-md-10 col-md-offset-2">
+                            <input type="submit" value="reset" class="btn btn-default">
+                            <input type="submit" value="sign-up" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <legend>
+                    <h2><strong>Already a member?</strong></h2>
+                </legend>
+                <legend>Sign in here</legend>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="email">Email</label>
+                        <div class="col-md-6">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="type your email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="login-password">Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="login-password" id="login-password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10 col-md-offset-2">
+                            <input type="submit" value="reset" class="btn btn-default">
+                            <input type="submit" value="login" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="text-center" style="margin-top: 20px">
+        Copyright &copy; Brain4ce Education Solutions Pvt. Ltd. All rights Reserved.
+        <a data-toggle="modal" href='#modal-tnc'>Terms & Conditions. Legal & Privacy</a>
+
+        <div class="modal fade" id="modal-tnc">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title"><strong>Terms and Conditions</strong></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>About The Company
+                            1.1 <a href="http://www.edureka.co">www.edureka.co</a> (the "Site"), the courses available
+                            from the Site (the "Courses"), and the training services made available on or through the
+                            Site and the software (the "Services"), are owned, operated, and maintained, as applicable,
+                            by Brain4ce Education Solutions Private Limited (hereinafter referred to as "we", "our",
+                            "us", or the "Company", as the case may be). The Site, Courses, and Services are,
+                            collectively referred to as the "Company Products". By (a) using or accessing the Company
+                            Products, including, but not limited to streaming, accessing or using the software; or (b)
+                            paying, either for itself or for someone else to use or access the Company Products, you
+                            agree to the terms and conditions set forth in these terms of use (the "Terms"). </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
